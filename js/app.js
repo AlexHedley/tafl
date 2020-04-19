@@ -1,4 +1,4 @@
-var myApp = angular.module('myApp',[]);
+var myApp = angular.module('myApp',['angular.filter']);
 myApp.controller('myController', function ($scope, $http, $q, $filter) {
 
     $scope.games = [];

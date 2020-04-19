@@ -66,6 +66,19 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="row">
+                    <div class="col">
+
+                        <h2>Count of Wins</h2>
+                        <p>
+                            <ul ng-repeat="(key, value) in games | countBy: 'winner'">
+                                Player: {{ key }}  {{ value }}
+                            </ul>
+                        </p>
+
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -90,6 +103,7 @@
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script> -->
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script> -->
     <script src="js/angular.min.js"></script>
+    <script src="js/angular-filter.js"></script>
     <script src="js/app.js"></script>
     </body>
 </html>
