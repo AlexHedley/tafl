@@ -1,8 +1,6 @@
 # Tafl
 
-Talf
-
-- [Site](http://alexhedley.github.io/talf/)
+- [Site](http://alexhedley.github.io/tafl/)
 
 Tafl, The Viking Game,
 
