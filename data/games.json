@@ -87,6 +87,14 @@
             "description": "",
             "winner": "Alex",
             "loser": "Kev"
+        },
+        {
+            "id": 11,
+            "name": "Alex vs Sam",
+            "date": "2021-09-02",
+            "description": "A A | S D",
+            "winner": "Sam",
+            "loser": "Alex"
         }
     ]
 }
